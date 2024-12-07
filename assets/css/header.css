@@ -1,0 +1,44 @@
+/* --------------------------------------- */
+/* Estilo Menu */
+/* --------------------------------------- */
+.header {
+    background: url('../../image/backgroundheader.jpg') no-repeat center top/cover fixed content-box padding-box;
+    width: 100%;
+    /* height: 20vh; */
+    /* position: fixed; */
+}
+
+.foto {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    /* gap: 2%; */
+}
+
+/* .menu::where(.foto){
+    align-items: start;
+    } */
+
+
+.menu,
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.itens-menu {
+    margin: 2%;
+    padding: 1%;
+}
+
+.itens-menu:hover {
+    opacity: 0.7;
+    background-color: red;
+}

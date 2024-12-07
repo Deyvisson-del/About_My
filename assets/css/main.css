@@ -1,0 +1,12 @@
+body{
+    background: #000000;
+}
+.titulo{
+    text-align: center;
+    font: 2rem;
+    margin: 2% 0;
+}
+.paragrafo{
+    margin: 1% 0;
+    font-size: 1.3rem;
+}
